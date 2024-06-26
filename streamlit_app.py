@@ -1,5 +1,5 @@
 import streamlit as st
-import win32com.client
+import win32com.client as win32
 import os
 
 def convert_indesign_to_pdf(indd_file_path):
