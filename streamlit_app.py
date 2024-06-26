@@ -1,5 +1,5 @@
 import streamlit as st
-import python_indesign as IndesignDocument
+from python_indesign import IndesignDocument
 import os
 
 def convert_indesign_to_pdf(indd_file_path, output_folder):
